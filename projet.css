@@ -1,0 +1,144 @@
+body {
+    height: 500px;
+    overflow-x: hidden;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.bg-img {
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+
+.btn {
+    color: black;
+    background-color: rgb(93, 145, 138);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    border-radius: 15px;
+    margin-left: 10px;
+    
+}
+
+.list {
+    width: 490px;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin-bottom: 10px;
+    border-radius: 19px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.content-below-logo {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.content-below-logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+.content-below-logo p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(255, 254, 254, 0.7);
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 200px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    gap: 20px;
+    z-index: 2;
+}
+
+.custom-card, .hello {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.below-image {
+    margin-top: 500px; /* Ajuster pour éloigner du contenu précédent */
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+.belo-image {
+    margin-top: 700px; /* Ajuster pour éloigner visuellement du contenu précédent */
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.below-image p {
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+footer {
+    margin-top: 50px; /* Ajoute un espace au-dessus du footer */
+    font-family: "Open Sans", sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.logo{
+    color: #f9f9f9;
+}
